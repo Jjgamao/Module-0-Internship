@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home";
 import Apply from "./pages/Apply";
-import {Navbar, Nav, Container, NavDropdown} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // This site has 3 pages, all of which are rendered
@@ -16,16 +15,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-    return (
-      <div className="wrapper">
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />}/>
-                <Route path="/apply" element={<Apply />}/>
-            </Routes>
-      </BrowserRouter>
-      </div>
-    );
-  }
-  
-  export default App;
+  return (
+    <div className="wrapper">
+      <BrowserRouter>
+          <Routes>
+              <Route path="/" element={<Home />}/>
+              <Route path="/apply" element={<Apply />}/>
+          </Routes>
+    </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;

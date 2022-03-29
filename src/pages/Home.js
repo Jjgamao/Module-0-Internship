@@ -2,12 +2,16 @@ import React from 'react';
 import Navigation from '../Component/Navigation/Navigation';
 import Image from 'react-bootstrap/Image';
 import banner from '../assets/banner.png';
+import Radium, {StyleRoot} from 'radium';
+import '../assets/styles/home.css';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>
+    <StyleRoot>
       <Navigation/>
-      <Image src={banner} fluid />
-    </div>
+      <Image src={banner} className="bannerBg" fluid />
+    </StyleRoot>
   );
 }
+
+export default Radium(Home);
