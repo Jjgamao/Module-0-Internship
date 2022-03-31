@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <StyleRoot>
       <Navigation/>
-      <Image src={banner} className="bannerBg" fluid />
+      <Image src={banner} className="banner-bg" />
     </StyleRoot>
   );
 }
