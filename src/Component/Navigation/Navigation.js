@@ -18,7 +18,7 @@ export default function Navigation() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto basic-nav">
-                  <Nav.Link href="/apply">Responsibilities</Nav.Link>
+                  <Nav.Link href="#first">Responsibilities</Nav.Link>
                   <Nav.Link href="/apply">Perks</Nav.Link>
                   <Nav.Link href="/apply">Testimonials</Nav.Link>
                   <Nav.Link href="/apply">Highlights</Nav.Link>
