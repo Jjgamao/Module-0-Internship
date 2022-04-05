@@ -12,16 +12,15 @@ export default function Navigation() {
   return (
     <div>
       <Rectangle></Rectangle>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" fixed="top">
         <Container>
             <Navbar.Brand href="/"><Image src={logo} fluid /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto basic-nav">
-                  <Nav.Link href="#first">Responsibilities</Nav.Link>
-                  <Nav.Link href="/apply">Perks</Nav.Link>
-                  <Nav.Link href="/apply">Testimonials</Nav.Link>
-                  <Nav.Link href="/apply">Highlights</Nav.Link>
+                  <Nav.Link href="#responsibilities">Responsibilities</Nav.Link>
+                  <Nav.Link href="#perks">Perks</Nav.Link>
+                  <Nav.Link href="#testimonials">Testimonials</Nav.Link>
                   <Nav.Link href="/apply"><Button>Apply Now!</Button></Nav.Link>
               </Nav>
             </Navbar.Collapse>

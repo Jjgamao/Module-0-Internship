@@ -1,0 +1,43 @@
+.divider-lg-secondary{
+    padding: 15px 110px;
+    background: #94A6BB;
+    color: #273755;
+    font-size: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.testimonials-carousel {
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.testimonials-carousel > .card {
+    width: 353px;
+    margin: 0 40px;
+    padding: 30px 50px;
+    background: #94A6BB;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.testimonials-carousel > .card .card-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: 'Arial';
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 900px) {
+    #testimonials .carousel-control-prev-icon {
+        margin-left: -60px;
+    }
+    
+    #testimonials .carousel-control-next-icon {
+        margin-right: -60px;
+    }
+}

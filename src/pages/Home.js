@@ -6,6 +6,10 @@ import '../assets/styles/home.css';
 import banner from '../assets/banner.png';
 import Navigation from '../Component/Navigation/Navigation';
 import Responsibilities from '../Component/InternshipCards/Responsibilities';
+import Perks from '../Component/InternshipCards/Perks';
+import Graduates from '../Component/InternshipCards/Graduates';
+import Footer from '../Component/Footer';
+
 
 const Home = () => {
   return (
@@ -13,10 +17,10 @@ const Home = () => {
       <Navigation/>
       <Image src={banner} className="banner-bg" />
       <div className="container">
-        <h1 class="section-title">Home</h1>
+        <h1 className="section-title">Home</h1>
         <hr />
       </div>
-      <div class="introduction">
+      <div className="introduction">
         <div>
           <p>
             Module 0 is MYT Softdev Solutions' internship program that equips interns with the right skills that will set you for the industry. Yes, you heard that right! We will be teaching you technical and soft skills you will need in creating innovative, intuitive and powerful solutions.
@@ -25,11 +29,21 @@ const Home = () => {
         </div>
       </div>
       <ScrollSpy>
-        <div id="first">
+        <div id="responsibilities">
           <Responsibilities/>
+        </div>
+        <div id="perks">
+          <Perks/>
+        </div>
+        <div id="testimonials">
+          <Graduates/>
+        </div>
+        <div id="footer">
+          <Footer/>
         </div>
       </ScrollSpy>
     </div>
+    
   );
 }
 

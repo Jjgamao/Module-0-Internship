@@ -1,5 +1,5 @@
 .title {
-    font-family: 'Roboto';
+    font-family: 'Avenir';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -30,4 +30,6 @@
 .tile-description > p {
     width: 100%;
     text-align: center;
+    font-size: 14px;
+    font-family: 'rubik';
 }

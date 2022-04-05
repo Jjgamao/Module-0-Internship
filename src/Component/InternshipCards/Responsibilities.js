@@ -16,15 +16,15 @@ const Responsibilities = () => {
   return (
     <div>
       <div className="divider"></div>
-      <p class="title">RESPONSIBILITIES</p>
+      <p className="title">RESPONSIBILITIES</p>
 
       <Container>
         <Row className="tile-row">
           <Col>
             <Container>
               <Row>
-                  <Col className="tile-image" style={{backgroundImage: `url(${R1})`}}></Col>
-                  <Col className="tile-description">
+                  <Col className="tile-image" style={{backgroundImage: `url(${R1})`}} xs={0} xl={6}></Col>
+                  <Col className="tile-description" xs={12} xl={6}>
                     <p>Assisisting on software design and coding.</p>
                   </Col>
               </Row>
@@ -33,8 +33,8 @@ const Responsibilities = () => {
           <Col>
             <Container>
                 <Row>
-                  <Col className="tile-image" style={{backgroundImage: `url(${R2})`}}>1 of 1</Col>
-                  <Col className="tile-description">
+                  <Col className="tile-image" style={{backgroundImage: `url(${R2})`}} xs={0} xl={6}></Col>
+                  <Col className="tile-description" xs={12} xl={6}>
                     <p>Learning the codebase and improving your coding skills.</p>
                   </Col>
                 </Row>
@@ -45,8 +45,8 @@ const Responsibilities = () => {
           <Col>
             <Container>
               <Row>
-                  <Col className="tile-image" style={{backgroundImage: `url(${R3})`}}>1 of 1</Col>
-                  <Col className="tile-description">
+                  <Col className="tile-image" style={{backgroundImage: `url(${R3})`}}xs={0} xl={6}></Col>
+                  <Col className="tile-description" xs={12} xl={6}>
                     <p>Writing and maintaining code.</p>
                   </Col>
               </Row>
@@ -55,8 +55,8 @@ const Responsibilities = () => {
           <Col>
             <Container>
                 <Row>
-                  <Col className="tile-image" style={{backgroundImage: `url(${R4})`}}>1 of 1</Col>
-                  <Col className="tile-description">
+                  <Col className="tile-image" style={{backgroundImage: `url(${R4})`}} xs={0} xl={6}></Col>
+                  <Col className="tile-description" xs={12} xl={6}>
                     <p>Working on bug fixes.</p>
                   </Col>
                 </Row>
@@ -67,8 +67,8 @@ const Responsibilities = () => {
           <Col>
             <Container>
               <Row>
-                  <Col className="tile-image" style={{backgroundImage: `url(${R5})`}}></Col>
-                  <Col className="tile-description">
+                  <Col className="tile-image" style={{backgroundImage: `url(${R5})`}} xs={0} xl={6}></Col>
+                  <Col className="tile-description" xs={12} xl={6}>
                     <p>Responding to requests from the development team.</p>
                   </Col>
               </Row>
@@ -77,8 +77,8 @@ const Responsibilities = () => {
           <Col>
             <Container>
                 <Row>
-                  <Col className="tile-image" style={{backgroundImage: `url(${R6})`}}>1 of 1</Col>
-                  <Col className="tile-description">
+                  <Col className="tile-image" style={{backgroundImage: `url(${R6})`}} xs={0} xl={6}></Col>
+                  <Col className="tile-description" xs={12} xl={6}>
                     <p>Monitoring the technical performance of internal systems.</p>
                   </Col>
                 </Row>
@@ -89,8 +89,8 @@ const Responsibilities = () => {
           <Col>
             <Container>
               <Row>
-                  <Col className="tile-image" style={{backgroundImage: `url(${R7})`}}></Col>
-                  <Col className="tile-description">
+                  <Col className="tile-image" style={{backgroundImage: `url(${R7})`}} xs={0} xl={6}></Col>
+                  <Col className="tile-description" xs={12} xl={6}>
                     <p>Test system and websites for any errors and propose technique to lessen and minimize future re-work within the team.</p>
                   </Col>
               </Row>
@@ -99,8 +99,8 @@ const Responsibilities = () => {
           <Col>
             <Container>
                 <Row>
-                  <Col className="tile-image" style={{backgroundImage: `url(${R8})`}}>1 of 1</Col>
-                  <Col className="tile-description">
+                  <Col className="tile-image" style={{backgroundImage: `url(${R8})`}} xs={0} xl={6}></Col>
+                  <Col className="tile-description" xs={12} xl={6}>
                     <p>Assist co-developers in completion of projects to meet the “launch” deadlines.</p>
                   </Col>
                 </Row>
@@ -111,8 +111,8 @@ const Responsibilities = () => {
           <Col>
             <Container>
               <Row>
-                  <Col className="tile-image" style={{backgroundImage: `url(${R9})`}}></Col>
-                  <Col className="tile-description">
+                  <Col className="tile-image" style={{backgroundImage: `url(${R9})`}} xs={0} xl={6}></Col>
+                  <Col className="tile-description" xs={12} xl={6}>
                     <p>Document technical and functional specification of a project or tasks. Provide documentation of all developments and updates, and ensure all such records are kept up-to-date.</p>
                   </Col>
               </Row>
@@ -121,8 +121,8 @@ const Responsibilities = () => {
           <Col>
             <Container>
                 <Row>
-                  <Col className="tile-image" style={{backgroundImage: `url(${R10})`}}>1 of 1</Col>
-                  <Col className="tile-description">
+                  <Col className="tile-image" style={{backgroundImage: `url(${R10})`}} xs={0} xl={6}></Col>
+                  <Col className="tile-description" xs={12} xl={6}>
                     <p>Writing reports. </p>
                   </Col>
                 </Row>
