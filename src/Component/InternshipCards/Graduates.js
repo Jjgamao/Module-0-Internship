@@ -17,7 +17,9 @@ const Graduates = () => {
                         <Card>
                             <Card.Img variant="top" src={mockPhoto} />
                             <Card.Body>
-                                <Card.Title>Justin Chiu</Card.Title>
+                                <div className="name">
+                                    <Card.Title>Justin Chiu</Card.Title>
+                                </div>
                                 <Card.Text>
                                     "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
                                 </Card.Text>
@@ -26,7 +28,9 @@ const Graduates = () => {
                         <Card>
                             <Card.Img variant="top" src={mockPhoto} />
                             <Card.Body>
-                                <Card.Title>Justin Chiu</Card.Title>
+                                <div className="name">
+                                    <Card.Title>Justin Chiu</Card.Title>
+                                </div>
                                 <Card.Text>
                                     "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
                                 </Card.Text>
@@ -35,38 +39,9 @@ const Graduates = () => {
                         <Card>
                             <Card.Img variant="top" src={mockPhoto} />
                             <Card.Body>
-                                <Card.Title>Justin Chiu</Card.Title>
-                                <Card.Text>
-                                    "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <div className="testimonials-carousel">
-                        <Card>
-                            <Card.Img variant="top" src={mockPhoto} />
-                            <Card.Body>
-                                <Card.Title>Justin Chiu</Card.Title>
-                                <Card.Text>
-                                    "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card>
-                            <Card.Img variant="top" src={mockPhoto} />
-                            <Card.Body>
-                                <Card.Title>Justin Chiu</Card.Title>
-                                <Card.Text>
-                                    "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card>
-                            <Card.Img variant="top" src={mockPhoto} />
-                            <Card.Body>
-                                <Card.Title>Justin Chiu</Card.Title>
+                                <div className="name">
+                                    <Card.Title>Justin Chiu</Card.Title>
+                                </div>
                                 <Card.Text>
                                     "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
                                 </Card.Text>
@@ -79,7 +54,9 @@ const Graduates = () => {
                         <Card>
                             <Card.Img variant="top" src={mockPhoto} />
                             <Card.Body>
-                                <Card.Title>Justin Chiu</Card.Title>
+                                <div className="name">
+                                    <Card.Title>Justin Chiu</Card.Title>
+                                </div>
                                 <Card.Text>
                                     "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
                                 </Card.Text>
@@ -88,7 +65,9 @@ const Graduates = () => {
                         <Card>
                             <Card.Img variant="top" src={mockPhoto} />
                             <Card.Body>
-                                <Card.Title>Justin Chiu</Card.Title>
+                                <div className="name">
+                                    <Card.Title>Justin Chiu</Card.Title>
+                                </div>
                                 <Card.Text>
                                     "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
                                 </Card.Text>
@@ -97,7 +76,46 @@ const Graduates = () => {
                         <Card>
                             <Card.Img variant="top" src={mockPhoto} />
                             <Card.Body>
-                                <Card.Title>Justin Chiu</Card.Title>
+                                <div className="name">
+                                    <Card.Title>Justin Chiu</Card.Title>
+                                </div>
+                                <Card.Text>
+                                    "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <div className="testimonials-carousel">
+                        <Card>
+                            <Card.Img variant="top" src={mockPhoto} />
+                            <Card.Body>
+                                <div className="name">
+                                    <Card.Title>Justin Chiu</Card.Title>
+                                </div>
+                                <Card.Text>
+                                    "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card>
+                            <Card.Img variant="top" src={mockPhoto} />
+                            <Card.Body>
+                                <div className="name">
+                                    <Card.Title>Justin Chiu</Card.Title>
+                                </div>
+                                <Card.Text>
+                                    "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card>
+                            <Card.Img variant="top" src={mockPhoto} />
+                            <Card.Body>
+                                <div className="name">
+                                    <Card.Title>Justin Chiu</Card.Title>
+                                </div>
                                 <Card.Text>
                                     "The Internship was fullfiling. I learned a lot and improve my skills in web development. It was more than I expected."
                                 </Card.Text>

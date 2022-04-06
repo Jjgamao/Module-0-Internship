@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap%27');
+
 .divider-lg-secondary{
     padding: 15px 110px;
     background: #94A6BB;
@@ -30,6 +32,10 @@
     font-size: 15px;
     font-family: 'Arial';
     color: #FFFFFF;
+}
+
+.name > .card-title{
+    color: #273755;
 }
 
 @media only screen and (min-width: 900px) {

@@ -25,7 +25,7 @@ const Home = () => {
           <p>
             Module 0 is MYT Softdev Solutions' internship program that equips interns with the right skills that will set you for the industry. Yes, you heard that right! We will be teaching you technical and soft skills you will need in creating innovative, intuitive and powerful solutions.
           </p>
-          <Button>Apply Now!</Button>
+          <Button className="apply-btn" href="/apply">Apply Now!</Button>
         </div>
       </div>
       <ScrollSpy>
@@ -38,7 +38,7 @@ const Home = () => {
         <div id="testimonials">
           <Graduates/>
         </div>
-        <div id="footer">
+        <div className="footer-container">
           <Footer/>
         </div>
       </ScrollSpy>

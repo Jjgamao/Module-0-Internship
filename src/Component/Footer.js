@@ -10,7 +10,7 @@ export default function Footer() {
     <Container className="footer">
         <Row className="contact-us">
             <Col>
-                <h1>CONTACT US</h1>
+                <h1 className="mt-5">CONTACT US</h1>
                 <p>Got more questions? Feel free to emai us with your queries and concerns</p>
                 <p>Address: Cebu, Philippines</p>
                 <p>Contact Number: +63 917 327 6230</p>

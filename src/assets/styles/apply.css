@@ -1,0 +1,81 @@
+.back-btn {
+    display: none;
+}
+
+.apply-container {
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+.intro{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.frm-group {
+    position: relative;
+}
+
+.frm-group .form-label {
+    position: absolute;
+    font-size: .8rem;
+    font-weight: 500;
+    left: 10px;
+}
+
+.frm-group .form-control {
+    padding: 10px 10px 0px;
+}
+
+.upload-label {
+    background: #FFFFFF;
+    padding: 17px;
+    width: 207px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.apply-now-btn.btn-primary { 
+    width: 100%;
+    height: 75px;
+    background-color: #273755;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.apply-now-btn.btn-primary:hover {
+    background-color: #273755;
+}
+
+@media only screen and (min-width: 900px) {
+    .back-btn {
+        display: initial;
+    }
+
+    .intro {
+        margin-bottom: 50px;
+    }
+
+    .apply-container {
+        padding: 100px 100px 200px;
+    }
+    
+    .frm-group .form-control {
+        padding: 20px 10px 10px;
+    }
+
+    .apply-now-btn.btn-primary {
+        float: right;  
+        width: 283px;
+        margin-bottom: 0;
+    }
+
+    .upload-label {
+        margin-bottom: 3rem;
+    }
+}
