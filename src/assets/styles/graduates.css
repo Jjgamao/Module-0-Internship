@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&display=swap');
 
 .divider-lg-secondary{
     padding: 15px 110px;
@@ -30,12 +30,15 @@
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
-    font-family: 'Arial';
+    font-family: 'rubik', sans-serif;
     color: #FFFFFF;
+    text-align: justify;
 }
 
 .name > .card-title{
     color: #273755;
+    font-family: 'rubik', sans-serif;
+    font-weight: bold;
 }
 
 @media only screen and (min-width: 900px) {

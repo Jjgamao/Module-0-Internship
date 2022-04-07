@@ -16,12 +16,12 @@
     align-items: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&display=swap');
 .tile-description > p {
     width: 100%;
     text-align: center;
     font-size: 14px;
-    font-family: 'Rubik';
+    font-family: 'rubik', sans-serif;
 }
 
 .title {
