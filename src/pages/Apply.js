@@ -9,7 +9,7 @@ import arrowRight from '../assets/arrow-right-circle.png';
 const Apply = () => {
   return (
     <div>
-        <div className="apply-container" style={{backgroundImage: `url(${applyBanner})`}}>
+        <div className="apply-container">
           <a href="/">
             <Image src={arrowRight} className="back-btn fluid" style={{ position: 'absolute', top: '10px', left: '10px'}}/>
           </a>
@@ -17,53 +17,21 @@ const Apply = () => {
           <Container className="form-container">
             <Form>
               <Row>
-                <Col md={7}>
+                <Col>
                   <Form.Group className="mb-4 frm-group" controlId="formBasicEmail">
-                    <Form.Label>LAST NAME</Form.Label>
-                    <Form.Control type="email" />
-                  </Form.Group>
-                </Col>
-                <Col md={3}>
-                  <Form.Group className="mb-4 frm-group" controlId="formBasicEmail">
-                    <Form.Label>AGE</Form.Label>
-                    <Form.Control type="email" />
-                  </Form.Group>
-                </Col>
-                <Col md={2}>
-                  <Form.Group className="mb-4 frm-group" controlId="formBasicEmail">
-                    <Form.Label>SEX</Form.Label>
+                    <Form.Label>NAME</Form.Label>
                     <Form.Control type="email" />
                   </Form.Group>
                 </Col>
               </Row>
               <Row>
-                <Col md={7}>
-                  <Form.Group className="mb-4 frm-group" controlId="formBasicEmail">
-                    <Form.Label>FIRST NAME</Form.Label>
-                    <Form.Control type="email" />
-                  </Form.Group>
-                </Col>
-                <Col md={5}>
+                <Col>
                   <Form.Group className="mb-4 frm-group" controlId="formBasicEmail">
                     <Form.Label>CONTACT NUMBER</Form.Label>
                     <Form.Control type="email" />
                   </Form.Group>
                 </Col>
-              </Row>
-              <Row>
-                <Col md={7}>
-                  <Form.Group className="mb-4 frm-group" controlId="formBasicEmail">
-                    <Form.Label>MIDDLE NAME</Form.Label>
-                    <Form.Control type="email" />
-                  </Form.Group>
-                </Col>
-                <Col md={5}>
-                  <Form.Group className="mb-4 frm-group" controlId="formBasicEmail">
-                    <Form.Label>YEAR</Form.Label>
-                    <Form.Control type="email" />
-                  </Form.Group>
-                </Col>
-              </Row>
+              </Row>         
               <Row>
                 <Col>
                   <Form.Group className="mb-4 frm-group" controlId="formBasicEmail">
@@ -71,15 +39,7 @@ const Apply = () => {
                     <Form.Control type="email" />
                   </Form.Group>
                 </Col>
-              </Row>
-              <Row>
-                <Col>
-                  <Form.Group className="mb-4 frm-group" controlId="formBasicEmail">
-                    <Form.Label>COMPLETE ADDRESS</Form.Label>
-                    <Form.Control type="email" />
-                  </Form.Group>
-                </Col>
-              </Row>
+              </Row>  
               <div>
                 <label className="upload-label" htmlFor="upload-resume">
                   Upload resume

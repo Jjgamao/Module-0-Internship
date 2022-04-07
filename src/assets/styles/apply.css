@@ -9,7 +9,7 @@
 
 .intro{
     text-align: center;
-    color: white;
+    color: #273755;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -30,7 +30,8 @@
 }
 
 .upload-label {
-    background: #FFFFFF;
+    background: #E4EBEE;
+    color: #273755;
     padding: 17px;
     width: 207px;
     text-align: center;
