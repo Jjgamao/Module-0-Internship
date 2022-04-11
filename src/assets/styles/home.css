@@ -102,3 +102,23 @@
         padding: 0 10%;
     }
 }
+
+.modal-body{
+    text-align: justify;
+}
+
+.modal-footer > .btn-primary {
+    background: #273755;
+}
+
+.modal-title{
+    color: white;
+}
+
+.modal-header{
+    background: #273755;
+}
+
+
+
+
