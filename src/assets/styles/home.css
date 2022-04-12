@@ -119,6 +119,12 @@
     background: #273755;
 }
 
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 400px !important;
+        margin: 1.75rem auto;
+    }
+}
 
 
 
