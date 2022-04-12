@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Button } from 'react-bootstrap';
+import { Image, Button, Modal } from 'react-bootstrap';
 import ScrollSpy from "react-ui-scrollspy";
 
 import '../assets/styles/home.css';
@@ -12,6 +12,10 @@ import Footer from '../Component/Footer';
 
 
 const Home = () => {
+  const [show, setShow] = React.useState(false);
+
+  const onClose = () => setShow(false);
+  const onClick = () => setShow(true);
   return (
     <div>
       <Navigation/>
@@ -25,7 +29,21 @@ const Home = () => {
           <p>
             Module 0 is MYT Softdev Solutions' internship program that equips interns with the right skills that will set you for the industry. Yes, you heard that right! We will be teaching you technical and soft skills you will need in creating innovative, intuitive and powerful solutions.
           </p>
-          <Button className="apply-btn" href="/apply">Apply Now!</Button>
+          <Button className="apply-btn" variant="primary" onClick={onClick}>Apply Now!</Button>
+          <Modal size="xx-large" show={show} onHide={onClose} keyboard={false}>
+                    <Modal.Header closeButton>
+                      <Modal.Title>Application</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                    Please email us your cover letter and resume at module-zero@mytdevcorp.com.
+                    </Modal.Body>
+                    <Modal.Footer>
+                      <Button variant="secondary" onClick={onClose}>
+                        Close
+                      </Button>
+                      <Button variant="primary" onClick={() => window.location = "mailto:module-zero@mytdevcorp.com."}>Confirm</Button>
+                    </Modal.Footer>
+                  </Modal>
         </div>
       </div>
       <ScrollSpy>
