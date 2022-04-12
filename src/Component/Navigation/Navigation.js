@@ -26,7 +26,7 @@ export default function Navigation() {
                   <Nav.Link href="#perks">Perks</Nav.Link>
                   <Nav.Link href="#testimonials">Testimonials</Nav.Link>
                   <Nav.Link><Button variant="primary" onClick={onClick}>Apply Now!</Button>
-                  <Modal size="sm" show={show} onHide={onClose} keyboard={false}>
+                  <Modal size="xx-large" show={show} onHide={onClose} keyboard={false}>
                     <Modal.Header closeButton>
                       <Modal.Title>Application</Modal.Title>
                     </Modal.Header>
